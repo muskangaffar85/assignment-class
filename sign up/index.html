@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+   
+</head>
+<body>
+    <div class="auth-container">
+        <h2>Sign Up</h2>
+
+        <label for="Name">First Name</label>
+        <input type="name" id="First Name" class="input-field" placeholder=" Name" />
+
+        <label for="Father Name">Father Name</label>
+        <input type="name" id="Father Name" class="input-field" placeholder=" Father Name" />
+
+
+        <label for="City">City</label>
+        <input type="name" id="City" class="input-field" placeholder="Enter City" />
+
+        <label for="Zip code">Zip Code</label>
+        <input type="number" id="Zip" class="input-field" placeholder="Enter code" />
+
+        <label for="signUpEmail">Email</label>
+        <input type="email" id="signUpEmail" class="input-field" placeholder="Enter Email" />
+        
+        <label for="signUpPassword">Password</label>
+        <input type="password" id="signUpPassword" class="input-field" placeholder="Enter Password" />
+        
+        <label for="signUpConfirmPassword">Confirm Password</label>
+        <input type="password" id="signUpConfirmPassword" class="input-field" placeholder="Confirm Password" />
+        
+        <button onclick="signUp()">Sign Up</button>
+        
+        <div class="auth-toggle">
+            <p>Already have an account? <a href="pages/">login</a></p>
+        </div>
+    </div>
+
+
+<p>
+    assignment class is post app create and quiz app create okay
+
+
+
+</p>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
